@@ -81,7 +81,10 @@
       >
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div
+        class="collapse navbar-collapse justify-content-end"
+        id="navbarNavAltMarkup"
+      >
         <div class="navbar-nav">
           <a class="nav-item nav-link active" href="index.html"
             >Home <span class="sr-only">(current)</span></a
@@ -100,22 +103,22 @@
           <div class="jumbotron ml-4">
             <h1 class="display-4">Hello, world!</h1>
             <hr class="my-4" />
-
-            <p class="text-right">
-              <img
-                src="./images/headshot_small_copy.jpg"
-                style="height: 200px"
-                class="img-fluid"
-                alt=""
-              />
-              This is a simple hero unit, a simple jumbotron-style component for
-              calling extra attention to featured content or information. It
-              uses utility classes for typography and spacing to space content
-              out within the larger container.
-            </p>
+            <div class="row d-flex flex-wrap">
+              <div class="col d-flex flex-wrap">
+                <img
+                  src="https://placehold.it/200x200"
+                  class="img-fluid"
+                  alt=""
+                />
+                <p>
+                  This is a simple hero unit, a simple jumbotron-style component
+                  for calling extra attention to featured content or
+                  information.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="col-3"></div>
       </div>
     </div>
   </body>

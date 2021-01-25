@@ -4,90 +4,34 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no" />
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-    crossorigin="anonymous"></script>
-  <!-- Fonts -->
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap" rel="stylesheet">
-
-  <!-- Cyborg theme -->
-  <link rel="stylesheet" href="https://bootswatch.com/4/cyborg/bootstrap.min.css" />
-
-  <!-- My CSS Rules -->
-  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./public/style.css" />
 
   <title>Trevor Smith</title>
 </head>
 
-<!-- Page Body -->
-
 <body>
-  <!-- Navbar -->
-
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="top-of-page">
-    <a class="navbar-brand" href="index.html">Trevor Smith</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
-        <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
-        <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
-        <a class="nav-item nav-link" href="contact.html">Contact</a>
-      </div>
-    </div>
-  </nav>
-
-  <!-- Jumbotron container -->
-
-  <section>
-    <div class="container my-5">
-      <div class="row">
-        <div class="col-m-12 col-12">
-          <div class="jumbotron ml-4 bg-light text-center">
-            <h3 class="display-5">Developer</h3>
-            <img src="./images/headshot_small_copy.jpg" class="img-fluid mr-3 my-1" style="height: 400px"
-              alt="Headshot.">
-            <hr class="my-1">
-            <p class="lead text-left">
-              Full Stack Web Developer with an extensive background in the music
-              industry. Graduate of the University of Texas Coding Boot Camp
-              with skills in HTML, CSS, JavaScript, and MERN stack.
-              As a Grammy
-              nominated musician I understand the importance of mastering skills
-              through practice and perseverance. I’ve found similarities between
-              coding and learning an instrument, as they are both challenging
-              yet every small victory is more rewarding than the last. I am now
-              able to apply this passion to my work as a programmer.
-              Eager to
-              combine my background in music with my technical skills to help
-              the developer team build, test and deploy high quality products.
-            </p>
-          </div>
+  <div class="container">
+    <div class="grid grid-cols-2">
+      <div class="h-screen text-2xl">
+        <div class="mt-24 px-auto flex items-center flex-col divide-y divide-gray-600 space-y-2">
+          <h1 class="">Full Stack Developer</h1>
+          <h1 class="py-1">Grammy Nominated Musician</h1>
         </div>
       </div>
+      <div class="mt-8">
+        <nav class="flex justify-around">
+          <a href="#"
+            class="text-blue-500 uppercase tracking-wide underline hover:text-blue-300 hover:line-through">Github</a>
+          <a href="#"
+            class="text-blue-500 uppercase tracking-wide underline hover:text-blue-300 hover:line-through">LinkedIn</a>
+          <a href="#"
+            class="text-blue-500 uppercase tracking-wide underline hover:text-blue-300 hover:line-through">Email</a>
+          <a href="#"
+            class="text-blue-500 uppercase tracking-wide underline hover:text-blue-300 hover:line-through">Resume</a>
+        </nav>
+      </div>
     </div>
-  </section>
-
-  <!-- Sticky Footer -->
-
-  <footer class="navbar fixed-bottom navbar-dark bg-dark justify-content-center">
-    <a class="navbar-brand" href="https://www.linkedin.com/in/trevor-smith-55770b1bb/" target="_blank">LinkedIn</a>
-    <a class="navbar-brand" href="https://github.com/trevorsmithbanjo" target="_blank">Git Hub</a>
-    <a class="navbar-brand" href="https://twitter.com/trevorsbanjo" target="_blank">Twitter</a>
-    <a class="navbar-brand" href="mailto: trevorsmithbanjo@gmail.com">Email</a>
-    <a class="navbar-brand" href="./assets/Resume.pdf" target="_blank">Resume</a>
-  </footer>
+  </div>
   <script type="text/js" src="./script.js"></script>
 </body>
 

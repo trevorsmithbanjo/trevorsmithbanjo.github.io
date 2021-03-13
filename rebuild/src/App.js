@@ -1,8 +1,13 @@
 import React from "react";
+import Header from "./components/Header";
+import Nav from "./components/Nav";
 
 function App() {
   return (
-    <h1>Hello World</h1>
+    <div>
+      <Nav />
+      <Header />
+    </div>
   )
 }
 

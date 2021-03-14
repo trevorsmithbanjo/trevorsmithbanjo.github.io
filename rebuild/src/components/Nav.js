@@ -2,23 +2,19 @@ import React from "react";
 
 function Nav() {
     return (
-        <div className="">
-            <nav>
-                <div>
-                    <h1>
-                        <a href="/">Home</a>
-                    </h1>
-                </div>
-                <div>
-                    <ul>
-                        <li>
-                            <a href="/">Portfolio</a>
-                        </li>
-                        <li>
-                            <a href="/">Contact</a>
-                        </li>
-                    </ul>
-                </div>
+        <div className="bg-sunglow-500 bg-opacity-25 w-full">
+            <nav className="">
+                <ul className="flex flex-row justify-evenly py-4 text-lg">
+                    <li>
+                        <a href="/">About</a>
+                    </li>
+                    <li>
+                        <a href="/">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="/">Contact</a>
+                    </li>
+                </ul>
             </nav>
         </div>
     )

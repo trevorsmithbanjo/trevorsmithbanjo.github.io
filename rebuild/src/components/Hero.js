@@ -3,7 +3,7 @@ import Headshot from "../images/headshot_small_copy.jpg";
 
 function Hero() {
     return (
-        <div className="container mx-auto p-16">
+        <div className="container mx-auto p-x-16 py-8 border-2 border-red-500">
             <main className="flex justify-center h-full col-span-2 overflow-hidden px-10 mx-20">
                 <div className="">
                     <img src={Headshot} alt="Headshot of Trevor Smith" className="max-w-xs object-contain rounded shadow"></img>

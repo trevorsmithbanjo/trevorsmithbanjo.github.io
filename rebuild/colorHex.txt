@@ -1,1 +1,1 @@
-Brand base color = #C49923
+Brand base color = #C49923 / .bg-sunglow-500

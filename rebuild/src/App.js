@@ -1,13 +1,19 @@
 import React from "react";
 import Header from "./components/Header";
 import Nav from "./components/Nav";
+import Hero from "./components/Hero";
+import Container from "./components/Container";
+import Wrapper from "./components/Wrapper";
 
 function App() {
   return (
-    <div className="w-full h-screen bg-gradient-to-r from-sunglow-500 via-royalblue-300 to-tomato-100">
+    <Container>
       <Nav />
       <Header />
-    </div>
+      <Wrapper>
+        <Hero />
+      </Wrapper>
+    </Container>
   )
 }
 

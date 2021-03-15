@@ -4,7 +4,7 @@
 @tailwind utilities;
 
 .navbar {
-    @apply bg-sunglow-500 w-full box-border fixed top-0 transition-all ease-in duration-150;
+    @apply bg-sunglow-500 w-full box-border flex flex-row justify-evenly fixed top-0;
 }
 
 .navbar--hidden {

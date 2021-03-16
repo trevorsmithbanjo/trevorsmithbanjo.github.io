@@ -1,8 +1,8 @@
 import React from "react";
 
-function Header() {
+function Header({ menu }) {
     return (
-        <div className="flex justify-center w-full text-4xl mt-12 p-6 uppercase font-bold">
+        <div className={menu}>
             <h1>Trevor Smith</h1>
         </div>
     )

@@ -1,20 +1,20 @@
 import React, { useEffect, useState } from "react";
 import "../index.css";
 
-function Nav() {
-    // Set state to click responsive navbar menu.
-    const [menu, setMenu] = useState(true);
+function Nav({ menu, handleMenu }) {
+    // // Set state to click responsive navbar menu.
+    // const [menu, setMenu] = useState(true);
 
-    //Menu button click event handler
-    const handleMenu = (e) => {
-        e.preventDefault();
-        if (!menu) {
-            setMenu(true);
-        }
-        else {
-            setMenu(false);
-        }
-    }
+    // //Menu button click event handler
+    // const handleMenu = (e) => {
+    //     e.preventDefault();
+    //     if (!menu) {
+    //         setMenu(true);
+    //     }
+    //     else {
+    //         setMenu(false);
+    //     }
+    // }
 
     return (
         <div className="bg-sunglow-500 w-full p-2 fixed top-0">
@@ -43,7 +43,8 @@ function Nav() {
                     </li>
                 </ul>
             </nav>
-            <ul className={menu ? "hidden" : "block text-lg mx-4"}>
+            {/* <ul className={menu ? "hidden" : "block text-lg mx-4"}> */}
+            <ul className={menu}>
                 <li className="">
                     <a href="/">About</a>
                 </li>

@@ -1,19 +1,10 @@
 import React from "react";
-import Header from "./components/Header";
-import Nav from "./components/Nav";
-import Hero from "./components/Hero";
-import Container from "./components/Container";
-import Wrapper from "./components/Wrapper";
+import About from "./pages/About";
+
 
 function App() {
   return (
-    <Container>
-      <Nav />
-      <Header />
-      <Wrapper>
-        <Hero />
-      </Wrapper>
-    </Container>
+    <About />
   )
 }
 

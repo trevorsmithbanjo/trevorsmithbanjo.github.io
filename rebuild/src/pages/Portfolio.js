@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import Header from "../components/Header";
 import Nav from "../components/Nav";
-import Hero from "../components/Hero";
 import Container from "../components/Container";
 import Wrapper from "../components/Wrapper";
 import Footer from "../components/Footer";
+import Projects from "../components/Projects";
 
-function About() {
+function Portfollio() {
     // Set state to click responsive navbar menu.
     const [menu, setMenu] = useState(true);
 
@@ -29,14 +29,14 @@ function About() {
             />
             <Header
                 menu={menu ? "flex justify-center w-full text-4xl mt-14 p-6 uppercase font-bold" : "flex justify-center w-full text-4xl mt-24 p-16 uppercase font-bold"}
-                header="Developer"
+                header="Portfolio"
             />
             <Wrapper>
-                <Hero />
+                <Projects />
             </Wrapper>
             <Footer />
         </Container>
     )
 }
 
-export default About;
+export default Portfollio;

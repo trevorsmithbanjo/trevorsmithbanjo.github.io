@@ -1,9 +1,9 @@
 import React from "react";
 
-function Header({ menu }) {
+function Header({ menu, header }) {
     return (
         <div className={menu}>
-            <h1>Trevor Smith</h1>
+            <h1>{header}</h1>
         </div>
     )
 }

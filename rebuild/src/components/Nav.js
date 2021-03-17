@@ -1,27 +1,14 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import "../index.css";
 
 function Nav({ menu, handleMenu }) {
-    // // Set state to click responsive navbar menu.
-    // const [menu, setMenu] = useState(true);
-
-    // //Menu button click event handler
-    // const handleMenu = (e) => {
-    //     e.preventDefault();
-    //     if (!menu) {
-    //         setMenu(true);
-    //     }
-    //     else {
-    //         setMenu(false);
-    //     }
-    // }
 
     return (
-        <div className="bg-sunglow-500 w-full p-2 fixed top-0">
+        <div className="bg-sunglow-500 w-full p-4 fixed top-0">
             <nav className="flex flex-row py-1 md:justify-between">
                 <div className="flex flex-row flex-grow justify-between md:justify-start mx-4">
-                    <h1 className="text-lg">
-                        <a className="hover:text-gray-800" href="/">Logo</a>
+                    <h1 className="text-xl font-bold">
+                        <a className="hover:text-gray-800" href="/">Trevor Smith</a>
                     </h1>
                     <p className="md:hidden" onClick={handleMenu}>
                         <svg className="h-8" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -33,26 +20,26 @@ function Nav({ menu, handleMenu }) {
                 </div>
                 <ul className="hidden md:flex flex-row flex-grow justify-evenly text-lg ">
                     <li>
-                        <a className="hover:text-gray-800" href="/">About</a>
+                        <a className="hover:text-gray-800" href="#/About">About</a>
                     </li>
                     <li>
-                        <a className="hover:text-gray-800" href="/">Portfolio</a>
+                        <a className="hover:text-gray-800" href="#/Portfolio">Portfolio</a>
                     </li>
                     <li>
-                        <a className="hover:text-gray-800" href="/">Contact</a>
+                        <a className="hover:text-gray-800" href="#/Contact">Contact</a>
                     </li>
                 </ul>
             </nav>
-            {/* <ul className={menu ? "hidden" : "block text-lg mx-4"}> */}
+
             <ul className={menu}>
                 <li className="">
-                    <a href="/">About</a>
+                    <a href="#/About">About</a>
                 </li>
                 <li>
-                    <a href="/">Portfolio</a>
+                    <a href="#/Portfolio">Portfolio</a>
                 </li>
                 <li>
-                    <a href="/">Contact</a>
+                    <a href="#/Contact">Contact</a>
                 </li>
             </ul>
         </div>

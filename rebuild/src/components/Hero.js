@@ -1,12 +1,12 @@
 import React from "react";
-import Headshot from "../images/headshot_small_copy.jpg";
+
 
 function Hero() {
     return (
         <div className="container mx-auto px-0 py-5">
             <main className="flex justify-center flex-col lg:flex-row lg:justify-center h-full px-4 mx-8">
                 <div className="mx-auto lg:mx-0">
-                    <img src={Headshot} alt="Headshot of Trevor Smith" className="max-w-xs object-contain rounded shadow"></img>
+                    <img src="../images/headshot_small_copy.jpg" alt="Headshot of Trevor Smith" className="max-w-xs object-contain rounded shadow"></img>
                 </div>
                 <div className="m-2">
                     {/* <h3 className="text-2xl font-semibold uppercase">Developer</h3> */}

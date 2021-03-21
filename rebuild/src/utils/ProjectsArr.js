@@ -1,4 +1,4 @@
-export const projectsArr = [
+export const ProjectsArr = [
     {
         image: "../images/yay_or_nay_screenshot.png",
         title: "Yay Or Nay",

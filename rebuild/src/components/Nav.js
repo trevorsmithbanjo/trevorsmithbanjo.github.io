@@ -1,7 +1,7 @@
 import React from "react";
 import "../index.css";
 
-function Nav({ menu, handleMenu }) {
+function Nav({ menu, handleMenu, about, portfolio, contact }) {
 
     return (
         <div className="bg-sunglow-500 w-full p-4 fixed top-0">
@@ -18,28 +18,28 @@ function Nav({ menu, handleMenu }) {
 
 
                 </div>
-                <ul className="hidden md:flex flex-row flex-grow justify-evenly text-lg ">
+                <ul className="hidden md:flex flex-row flex-grow justify-evenly text-lg font-semibold">
                     <li>
-                        <a className="hover:text-gray-800" href="#/About">About</a>
+                        <a className={about} href="#/About">About</a>
                     </li>
                     <li>
-                        <a className="hover:text-gray-800" href="#/Portfolio">Portfolio</a>
+                        <a className={portfolio} href="#/Portfolio">Portfolio</a>
                     </li>
                     <li>
-                        <a className="hover:text-gray-800" href="#/Contact">Contact</a>
+                        <a className={contact} href="#/Contact">Contact</a>
                     </li>
                 </ul>
             </nav>
 
             <ul className={menu}>
                 <li className="">
-                    <a href="#/About">About</a>
+                    <a href="#/About" className={about}>About</a>
                 </li>
                 <li>
-                    <a href="#/Portfolio">Portfolio</a>
+                    <a href="#/Portfolio" className={portfolio}>Portfolio</a>
                 </li>
                 <li>
-                    <a href="#/Contact">Contact</a>
+                    <a href="#/Contact" className={contact}>Contact</a>
                 </li>
             </ul>
         </div>

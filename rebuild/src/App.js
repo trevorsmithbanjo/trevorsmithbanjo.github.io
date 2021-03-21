@@ -1,19 +1,24 @@
 import React from "react";
-import Header from "./components/Header";
-import Nav from "./components/Nav";
-import Hero from "./components/Hero";
-import Container from "./components/Container";
-import Wrapper from "./components/Wrapper";
+import About from "./pages/About";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
+import Portfolio from "./pages/Portfolio";
+import Contact from "./pages/Contact";
+
 
 function App() {
+
   return (
-    <Container>
-      <Nav />
-      <Header />
-      <Wrapper>
-        <Hero />
-      </Wrapper>
-    </Container>
+    <Router>
+      <div>
+        <Switch>
+          <Route exact path="/" component={About} />
+          <Route exact path="/About" component={About} />
+          <Route exact path="/Portfolio" component={Portfolio} />
+          <Route exact path="/Contact" component={Contact} />
+        </Switch>
+      </div>
+    </Router>
+
   )
 }
 

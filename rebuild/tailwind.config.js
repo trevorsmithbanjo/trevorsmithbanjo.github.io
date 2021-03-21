@@ -3,6 +3,9 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      fontFamily: {
+        'Montserrat': ['Montserrat', 'sans-serif']
+      },
       colors: {
         sunglow: {
           '50': '#f9f7eb',

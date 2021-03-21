@@ -8,12 +8,6 @@ import Projects from "../components/Projects";
 import { projectsArr } from "../utils/projectsArr";
 
 function Portfollio() {
-    // Setting array of project data to a variable
-    // const projects = projectsArr;
-    // const IMG = (imgName) => {
-    //     return require(`../images/${imgName}`);
-    // }
-
     // Set state to click responsive navbar menu.
     const [menu, setMenu] = useState(true);
 

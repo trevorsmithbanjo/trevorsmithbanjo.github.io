@@ -23,7 +23,8 @@ function Portfollio() {
     }
 
     return (
-        <Container>
+        <div>
+
             <Nav
                 menu={menu ? "hidden" : "block text-lg font-semibold mx-4"}
                 handleMenu={handleMenu}
@@ -31,24 +32,26 @@ function Portfollio() {
                 portfolio={"hover:text-gray-800 hover:line-through underline"}
                 contact={"hover:text-gray-800 hover:line-through"}
             />
-            <Header
-                menu={menu ? "flex justify-center w-full text-4xl mt-14 p-6 uppercase font-bold" : "flex justify-center w-full text-4xl mt-24 p-16 uppercase font-bold"}
-                header="Portfolio"
-            />
-            <Wrapper>
-                {ProjectsArr.map((project, key) => (
-                    <Projects
-                        key={key}
-                        image={project.image}
-                        title={project.title}
-                        summary={project.summary}
-                        link={project.link}
-                        repo={project.repo}
-                    />
-                ))}
-            </Wrapper>
-            <Footer />
-        </Container>
+            <Container>
+                <Header
+                    menu={menu ? "flex justify-center w-full text-4xl mt-14 p-6 uppercase font-bold" : "flex justify-center w-full text-4xl mt-24 p-16 uppercase font-bold"}
+                    header="Portfolio"
+                />
+                <Wrapper>
+                    {ProjectsArr.map((project, key) => (
+                        <Projects
+                            key={key}
+                            image={project.image}
+                            title={project.title}
+                            summary={project.summary}
+                            link={project.link}
+                            repo={project.repo}
+                        />
+                    ))}
+                </Wrapper>
+                <Footer />
+            </Container>
+        </div>
     )
 }
 

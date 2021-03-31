@@ -4,7 +4,7 @@ import React from "react";
 function ContactCard() {
     return (
         <div className="h-screen w-full pt-8">
-            <div className="h-80 w-full md:w-1/3 my-0 mx-auto">
+            <div className="h-80 md:w-1/3 my-0 md:mx-auto">
                 <main className="w-full h-full p-2 mx-2">
                     <div className="flex flex-row justify-start items-center p-2">
                         <a href="mailto: trevorsmithbanjo@gmail.com" className="hover:opacity-50">

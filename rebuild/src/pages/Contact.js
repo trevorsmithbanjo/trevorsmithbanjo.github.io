@@ -24,7 +24,7 @@ function Contact() {
     }
 
     return (
-        <Container>
+        <div>
             <Nav
                 menu={menu ? "hidden" : "block text-lg font-semibold mx-4"}
                 handleMenu={handleMenu}
@@ -32,15 +32,17 @@ function Contact() {
                 portfolio={"hover:text-gray-800 hover:line-through"}
                 contact={"hover:text-gray-800 hover:line-through underline"}
             />
-            <Header
-                menu={menu ? "flex justify-center w-full text-4xl mt-14 p-6 uppercase font-bold" : "flex justify-center w-full text-4xl mt-24 p-16 uppercase font-bold"}
-                header="Contact"
-            />
-            <Wrapper>
+            <Container>
+                <Header
+                    menu={menu ? "flex justify-center w-full text-4xl mt-14 p-6 uppercase font-bold" : "flex justify-center w-full text-4xl mt-24 p-16 uppercase font-bold"}
+                    header="Contact"
+                />
+                {/* <Wrapper> */}
                 <ContactCard />
-            </Wrapper>
-            <Footer />
-        </Container>
+                {/* </Wrapper> */}
+                <Footer />
+            </Container>
+        </div>
     )
 }
 

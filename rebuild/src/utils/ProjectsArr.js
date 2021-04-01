@@ -3,7 +3,7 @@ export const ProjectsArr = [
         image: "../images/ResuMake_screenshot.png",
         title: "ResueMake",
         summary: "Want to put your best foot forward and impress employers? Our resume helper can help to create a professional and sleek Resume as well as a Webpage within minutes. Try it out by creating an account with us!",
-        link: "resumake-pro.herokuapp.com/",
+        link: "https://resumake-pro.herokuapp.com/",
         repo: "https://github.com/UT-final-project/group1-final-project"
     },
     {

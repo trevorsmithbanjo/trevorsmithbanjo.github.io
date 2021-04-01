@@ -24,7 +24,6 @@ function Portfollio() {
 
     return (
         <div>
-
             <Nav
                 menu={menu ? "hidden" : "block text-lg font-semibold mx-4"}
                 handleMenu={handleMenu}

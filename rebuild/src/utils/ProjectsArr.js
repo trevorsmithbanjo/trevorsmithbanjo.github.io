@@ -1,5 +1,13 @@
 export const ProjectsArr = [
   {
+    image: "../images/Greenlight_screenshot.png",
+    title: "Greenlight",
+    summary:
+      "The mission of this project is to provide a way for people who want to host their data visualizations at their own domains with little effort and time. To accomplish this, the project is built using Gatsby, which to quote them is ”a modern web framework for blazing fast websites.",
+    link: "https://api-guild.github.io/greenlight/",
+    repo: "https://github.com/API-Guild/greenlight",
+  },
+  {
     image: "../images/ResuMake_screenshot.png",
     title: "ResueMake",
     summary:
@@ -15,14 +23,14 @@ export const ProjectsArr = [
     link: "https://p002-yay-or-nay.herokuapp.com/",
     repo: "https://github.com/trevorsmithbanjo/p2_org_decider",
   },
-  {
-    image: "../images/Fitness-Chart-screenshot.png",
-    title: "Track-Fit",
-    summary:
-      "A fitness tracker application using node and express in the backend as well as mongoose with mongoDB for handling the database and database Schema.",
-    link: "https://trevorsmith-fit-track.herokuapp.com/",
-    repo: "https://github.com/trevorsmithbanjo/track-fit",
-  },
+  // {
+  //   image: "../images/Fitness-Chart-screenshot.png",
+  //   title: "Track-Fit",
+  //   summary:
+  //     "A fitness tracker application using node and express in the backend as well as mongoose with mongoDB for handling the database and database Schema.",
+  //   link: "https://trevorsmith-fit-track.herokuapp.com/",
+  //   repo: "https://github.com/trevorsmithbanjo/track-fit",
+  // },
   // {
   //     image: "../images/Rescue-Spot-.png",
   //     title: "Rescue \"Spot\"",

@@ -1,5 +1,5 @@
 import React from "react";
-import Resume from "../assets/Trevor_Smith_Resume.pdf";
+import Resume from "../assets/Trevor Smith Resume.pdf";
 
 function Footer() {
   return (
